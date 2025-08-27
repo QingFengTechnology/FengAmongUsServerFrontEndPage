@@ -1,8 +1,6 @@
 const regionMapping = {
-    'nb.server.qinfgengawa.top': '宁波',
-    'sh.server.qingfengawa.top': '上海',
-    'localhost': '本地',
-    '127.0.0.1': '本地'
+    'https://nb.server.qinfgengawa.top': '宁波',
+    'https://sh.server.qingfengawa.top': '上海'
 };
 
 function detectRegion() {
