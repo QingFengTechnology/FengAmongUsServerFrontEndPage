@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>清风 Among Us 服务器</title>
+  <!--不使用官方推荐的CDN，该CDN在中国为负优化。-->
+  <link rel="stylesheet" href="Asset/Style/bootstrap.min.css">
+  <!--将颜色模式切换JS放在上面刷新时就不会出现白屏闪烁问题了-->
+  <script src="Asset/Script/ColorMode.js"></script>
+</head>
+
+<body class="container text-center">
+  <h1 class="display-2 m-5 shadow-sm">清风 Among Us 服务器</h1>
+  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+    <img class="img-fluid" width="15%" alt="QingFeng" src="Asset/Image/Server.png" />
+    <p class="m-3 h3 text-primary-emphasis">当前服务器区域：<span id="Region"></span></p>
+    <p class="m-3">当你成功看到了此页面，说明该私服的<strong>网关服务器</strong>在线，且工作正常，也说明了你可以连接到该服务器。<br>
+      但这<strong>不意味着</strong>整个服务端都是正常工作的，有各种千奇百怪的原因会使你无法在此服务器游玩。</p>
+    <p class="m-3">要了解此私服的详细信息，请参阅我们的官方文档。</p>
+    <div class="btn-group shadow-sm" role="group">
+      <button type="button" class="btn btn-lg btn-outline-secondary" onclick="window.location.href='https://app.status.qingfengawa.top'">服务端在线状态</button>
+      <button type="button" class="btn btn-lg btn-outline-primary" onclick="window.location.href='https://docs.qingfengawa.top'">私服官方文档</button>
+      <button type="button" class="btn btn-lg btn-outline-secondary" onclick="window.location.href='https://server.status.qingfengawa.top'">服务器在线状态</button>
+    </div>
+  </div>
+  <script src="Asset/Script/HostnameDetection.js"></script>
+  <script src="Asset/Script/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
