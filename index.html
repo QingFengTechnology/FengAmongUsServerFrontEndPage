@@ -13,19 +13,30 @@
   <script src="Asset/Script/ColorMode.js"></script>
 </head>
 
-<body class="container text-center">
+<body class="text-center">
   <h1 class="display-2 m-5 shadow-sm">清风 Among Us 服务器</h1>
-  <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+  <main class="container shadow p-3 mb-5 bg-body-tertiary rounded">
     <img class="img-fluid" width="15%" alt="QingFeng" src="Asset/Image/Server.png" />
     <p class="m-3 h3 text-primary-emphasis">当前服务器区域：<span id="Region"></span></p>
     <p class="m-3">当你成功看到了此页面，说明该私服的<strong>网关服务器</strong>在线，且工作正常，也说明了你可以连接到该服务器。<br>
       但这<strong>不意味着</strong>整个服务端都是正常工作的，有各种千奇百怪的原因会使你无法在此服务器游玩。</p>
     <p class="m-3">要了解此私服的详细信息，请参阅我们的官方文档。</p>
     <div class="btn-group shadow-sm" role="group">
-      <button type="button" class="btn btn-lg btn-outline-secondary" onclick="window.location.href='https://app.status.qingfengawa.top'">服务端在线状态</button>
-      <button type="button" class="btn btn-lg btn-outline-primary" onclick="window.location.href='https://docs.qingfengawa.top'">私服官方文档</button>
-      <button type="button" class="btn btn-lg btn-outline-secondary" onclick="window.location.href='https://server.status.qingfengawa.top'">服务器在线状态</button>
+      <button type="button" class="btn btn-lg btn-outline-secondary"
+        onclick="window.location.href='https://app.status.qingfengawa.top'">服务端在线状态</button>
+      <button type="button" class="btn btn-lg btn-outline-primary"
+        onclick="window.location.href='https://docs.qingfengawa.top'">私服官方文档</button>
+      <button type="button" class="btn btn-lg btn-outline-secondary"
+        onclick="window.location.href='https://server.status.qingfengawa.top'">服务器在线状态</button>
     </div>
+  </main>
+  <div class="fixed-bottom">
+    <footer class="py-3 border-top">
+      <p class="mb-0 text-body-secondary">
+        &copy; 2023-2025 By <a href="https://qingfengawa.top" target="_blank"
+          class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">QingFeng</a>
+      </p>
+    </footer>
   </div>
   <script src="Asset/Script/HostnameDetection.js"></script>
   <script src="Asset/Script/bootstrap.bundle.min.js"></script>
