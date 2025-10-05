@@ -1,6 +1,6 @@
 const regionMapping = {
     'nb.server.qingfengawa.top': '宁波',
-    'sh.server.qingfengawa.top': '上海'
+    'server.qingfengawa.top': '宁波'
 };
 
 function detectRegion() {
